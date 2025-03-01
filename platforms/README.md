@@ -15,7 +15,7 @@ If you don't manage to get this working we'll still want to hear about what you 
 
     I started of with making a subdomain on desec.io, which wasn't too difficult. But I ran into a problem when trying to open ports for matrix. I don't have a router, I'm using my phone as a hotspot device for my laptop and I wasn't exactly able to forward a port. From a bit of research i found that you can do this with a VPS, but because of time constraints, I didn't have the time to learn how to set it up. I also found that you can use a VPN that supports port forwarding, but most of them require a subscription.
 
-    For hosting the server, I was going to use conduwuit. Since I don't have linux on my laptop, I'd probably use docker to host matrix. 
+    For hosting the server, I was going to use Synapse as it seemed to have the most documentation. Since I don't have linux on my laptop, I'd probably use docker to host matrix. The next step would be to make a config file, run synapse and generate user. And once set up, I think I'd have to use a matrix client like element and I should be able to send a message to the matrix handler.
 
     Unfortunately, I didn't think I had enough time to do this technical assessment fully so I decided focus on the other ports. 
 
